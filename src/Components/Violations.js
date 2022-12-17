@@ -103,7 +103,7 @@ export default function Violations() {
             </div>
             <div className="row">
               <form className='px-4' onSubmit={handleSubmit}>
-                <input type="text" className="form-control my-3" id="searchbar" placeholder='Search Users by Employee ID, CNIC, or Mobile Number' value={search} onChange={(e)=>setSearch(e.target.value)}/>
+                <input type="text" className="form-control my-3" id="searchbar" placeholder='Search Users by Employee Name, Activity, or Zone' value={search} onChange={(e)=>setSearch(e.target.value)}/>
               </form>
             </div>
             <div className='row mx-2' id='showviolations'>

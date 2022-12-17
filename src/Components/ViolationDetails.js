@@ -83,7 +83,6 @@ export default function ViolationDetails() {
 
   return (
         <div className='container-fluid bg-white' style={{background: '#A19B9E', border: '1px solid #707070', borderRadius:'5px', height:'450px'}}>
-          {/* <div className='container-fluid bg-white p-2 mt-2 mb-5' style={{height: '96%'}}> */}
             <div className='row'>
                 <div className='col-2'>
                   <Link to='/violations'><i class="bi bi-arrow-left"></i></Link>
@@ -144,7 +143,6 @@ export default function ViolationDetails() {
             <div className='vioDTable mx-0 mt-0 mb-3 p-0' style={{display: 'block', overflowY: 'auto', overflowX: 'hidden', height: '40%'}}>
               {<ShowViolationData/>}                
             </div>
-          {/* </div>   */}
         </div>
   )
 }

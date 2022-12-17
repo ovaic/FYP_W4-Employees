@@ -5,6 +5,9 @@ import SideBar from './Components/SideBar';
 import Home from './Components/Home';
 import Attendance from './Components/Attendance';
 import Registration from './Components/Registration';
+import ViewUser from './Components/ViewUser';
+import EditUser from './Components/EditUser';
+import AddUser from './Components/AddUser';
 import Violations from './Components/Violations';
 import GroupManagement from './Components/GroupManagement';
 import SystemControl from './Components/SystemControl';
@@ -39,6 +42,9 @@ function App() {
                                           <Route path="/" element={<Home />} />
                                           <Route path="/home" element={<Home />} />
                                           <Route path="/registration" element={<Registration />} />
+                                          <Route path="/viewuser" element={<ViewUser />} />
+                                          <Route path="/edituser" element={<EditUser />} />
+                                          <Route path="/adduser" element={<AddUser />} />
                                           <Route path="/attendance" element={<Attendance />} />
                                           <Route path="/violations" element={<Violations />} />
                                           <Route path="/rolemanagement" element={<RoleManagement />} />

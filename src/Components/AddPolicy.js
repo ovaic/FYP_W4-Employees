@@ -86,9 +86,9 @@ export default function AddPolicy() {
                     <div className="col-4">
                         <label for="inputState" className="form-label">Activity:</label>
                         <select id="inputState" className="form-select" value={activity} onChange={(e)=>setActivity(e.target.value)}>
-                        <option selected>Choose...</option>
-                        <option>TalkingOnPhone</option>
-                        <option>HoldingGun-Shooting </option>
+                            <option selected>Choose...</option>
+                            <option>TalkingOnPhone</option>
+                            <option>HoldingGun-Shooting </option>
                         </select>
                     </div>
                     <div className='col-8'></div>

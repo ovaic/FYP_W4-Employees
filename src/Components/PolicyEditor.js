@@ -132,10 +132,10 @@ export default function PolicyEditor() {
                                 {String(policy.isallowed)}
                             </div>
                             <div className='col-2 ps-4 text-center'>
-                            <i class="bi bi-pencil-square" onClick={()=>handleEdit(policy)}></i>
-                            <span> / </span>
-                            <i class="bi bi-trash3" onClick={()=>handleDelete(policy.id)}></i>
-                        </div>
+                                <i class="bi bi-pencil-square" onClick={()=>handleEdit(policy)}></i>
+                                <span> / </span>
+                                <i class="bi bi-trash3" onClick={()=>handleDelete(policy.id)}></i>
+                            </div>
                         </div>
                     )
                 })}

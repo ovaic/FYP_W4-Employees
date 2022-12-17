@@ -39,10 +39,10 @@ export default function SideBar() {
     return (
         <div className='container-fluid' style={{width: '100%', background: '#A19B9E', border: '1px solid #707070', borderRadius: '5px', height: '100%' }}>
             <ui style={{ listStyleType: 'none' }}>
-                {/* <li className='row' style={styles[0]} onClick={() => handleHover(0)}>
+                <li className='row' style={styles[0]} onClick={() => handleHover(0)}>
                     <Link to="/registration" className='col-12 p-1 sidebarLink'>Registration</Link>
                 </li>
-                <li className='row' style={styles[1]} onClick={() => handleHover(1)}>
+                {/* <li className='row' style={styles[1]} onClick={() => handleHover(1)}>
                     <Link to="/attendance" className='col-12 p-1 sidebarLink'>Attendance</Link>
                 </li> */}
                 <li className='row' style={styles[2]} onClick={() => handleHover(2)}>

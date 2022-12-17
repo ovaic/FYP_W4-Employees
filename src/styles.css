@@ -103,12 +103,12 @@ html {
 
 /* HOME */
 .homeLogo {
-  margin-left: 25%;
-  background-image: url(/public/backgroundlogo.png);
+  background-image: url('/backgroundlogo.png');
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   height: 70vh;
-  opacity: 12%;
+  opacity: 10%;
 }
 
 /* HOME */
